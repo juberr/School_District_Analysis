@@ -7,19 +7,25 @@ Working with Maria, we created six Pandas Dataframes with the data from the scho
 ## Results
 
 * How is the district summary affected? 
-    * Average reading score stayed at 81.9, took a reduction after replacing all ninth grade data with NaNs.
+    * For the district summary, the average reading score stayed at 81.9, but all other metrics took a reduction after replacing all ninth grade data with NaNs.
 
-    INSERT PICTURES HERE
+    ![district summary before](https://github.com/juberr/School_District_Analysis/blob/main/Challenge/screenshots/district%20summary%20before.png?raw=true)
+
+    ![district summary after](https://github.com/juberr/School_District_Analysis/blob/main/Challenge/screenshots/district%20summary%20after.png?raw=true)
 
 * How was the school summary affected? 
-    * Across each metric, Thomas High School is reporting lower grade and passing percentages after replacing all ninth grade data with NaNs.
+    * Across each metric (except average reading score), Thomas High School is reporting lower grades and passing percentages after replacing all ninth grade data with NaNs.
 
-    INSERT PICTURES HERE
+    ![school summary before](https://github.com/juberr/School_District_Analysis/blob/main/Challenge/screenshots/school%20summary%20before.png?raw=true)
+    
+    ![school summary after](https://github.com/juberr/School_District_Analysis/blob/main/Challenge/screenshots/school%20summary%20after.png?raw=true)
 
 * How does replacing the ninth grader's math and reading scores affect Thomas High School’s performance relative to the other schools?
     * After replacing the ninth grader's math and reading scores with NaN values, Thomas High School's performance reamains at second place overall in the district. Though the gap between Thomas High School and Griffin High School Has become significantly closer (90.63 to 90.60)
 
-    INSERT PICTURE HERE
+    ![top schools before](https://github.com/juberr/School_District_Analysis/blob/main/Challenge/screenshots/top%20schools%20before.png?raw=true)
+
+    ![top schools after](https://github.com/juberr/School_District_Analysis/blob/main/Challenge/screenshots/top%20schools%20after.png?raw=true)
 
 * How did replacing ninth grade scores affect:
 
